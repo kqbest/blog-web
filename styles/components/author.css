@@ -1,0 +1,15 @@
+.author-div {
+  text-align: center;
+}
+.author-div div {
+  margin-bottom: 1rem;
+}
+.author-introduction {
+  font-size: 0.8rem;
+  color: #999;
+}
+.account {
+  background-color: #999;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
