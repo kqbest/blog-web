@@ -38,7 +38,7 @@ const Home = (props) => {
 }
 
 export async function getServerSideProps () {
-  const data = await $api.common.getArticleList()
+  const data = await $api.common.getArticleList() || {}
   return { props: { data: data.data } }
 }
 
